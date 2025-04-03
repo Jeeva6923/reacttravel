@@ -1,0 +1,38 @@
+#hide{
+    font-family: "Montserrat", serif;
+    /* color: rgb(240, 189, 113); */
+    color: white;
+    font-size: 80px;
+    margin-left: 10%;
+}
+#hide1{
+    font-family: "Montserrat", serif;
+    /* color: rgb(240, 189, 113); */
+    color: white;
+
+    text-align: center;
+    font-size: 80px;
+}
+#hiden{
+    margin-top: 50px;
+    height: 350px;
+}
+#adven{
+    color: rgb(240, 189, 113);
+    font-style: italic;
+    font-family: "Grechen Fuemen", serif;
+    font-size: 40px;
+    transform: rotate(-8deg);
+    margin-left: 50%;
+}
+@media screen and (max-width:640px) {
+    #hide{
+        font-size: 40px;
+    }
+    #hide1{
+        font-size: 40px;
+    }
+    #adven{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,76 @@
+
+.react-calendar {
+    margin-left: 22%;
+    margin-top: 5%;
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    color: white;
+}
+button{
+    color: white;
+}
+#bbb:focus{
+ background-color:rgb(224, 220, 220)
+}
+#bbb:active{
+ background-color:rgb(224, 220, 220)
+}
+#bbb:hover{
+ background-color:rgb(224, 220, 220)
+}   
+#bbb-clicked{
+ background-color:rgb(224, 220, 220)
+}
+#bbb{
+    padding: 10px;
+    width: 250px;
+    background-color:rgb(240, 189, 113) ;
+    color: black;
+    font-weight: 500;
+}
+#btn1{
+    justify-items: center;
+    margin-top: 3%;
+    /* position: fixed; */
+}
+#bcknxt{
+    margin-top: 3%;
+    /* margin-left: 24%; */
+    display: flex;
+justify-content: center;
+
+}
+#back{
+    padding: 10px;
+    width: 350px;
+    background-color:rgb(240, 189, 113) ;
+    color: black;
+    font-weight: 500;
+}
+#nextts{
+    padding: 10px;
+    width: 350px;
+    background-color:rgb(240, 189, 113) ;
+    color: black;
+    font-weight: 500;
+    
+}
+#back:focus{
+    background-color:rgb(224, 220, 220)
+}
+#back:active{
+    background-color:rgb(224, 220, 220)
+}
+#back:hover{
+    background-color:rgb(224, 220, 220)
+}
+#nextts:focus{
+    background-color:rgb(224, 220, 220)
+}
+#nextts:active{
+    background-color:rgb(224, 220, 220)
+}
+#nextts:hover{
+    background-color:rgb(224, 220, 220)
+}

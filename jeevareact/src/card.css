@@ -1,0 +1,75 @@
+
+div.scroll-container{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+    scrollbar-width: none;
+    display: flex;
+    border-width: 0;
+}
+div.scroll-container img{
+    height: 600px;
+    width: 400px;
+    margin-top: 85px;
+    padding: 20px;
+    position: relative;
+}
+ .grape{
+    position:relative;
+    filter: brightness(0.9);
+ }
+ .grape:hover{
+    filter: brightness(1.2);
+ }
+ .vine{
+    font-size: xx-large;
+    color:white;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    z-index: 1;
+    text-shadow: 2px 2px 2px black;
+ }
+ .view{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    z-index: 1;
+ }
+ h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 200;
+    font-size: 30px;
+
+ }
+.viewbtn{
+    padding: 15px;
+    width: 80px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    /* border-width: 4px; */
+    font-size: large;
+    display: flex;
+    box-shadow: 0;
+    text-shadow: 0.5px 0.5px 1px white;
+ }
+ .viewbtn:hover{
+    transform: scale(1.1);
+ }
+.from99{
+    position: absolute;
+    left: 60%;
+    color:white;
+    top: 86%;
+    z-index: 1;
+}
+h6{
+    font-size: 20px;
+}
+@media screen and (max-width:988px) { 
+    div.scroll-container{
+        padding: 1px;
+    }
+}

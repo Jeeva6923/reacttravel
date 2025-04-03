@@ -1,0 +1,48 @@
+p{
+    color: white;
+    font-size: x-large;
+    wrap:nowrap;
+    font-size: xx-large;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.couple{
+    text-align: center;
+    color: rgb(240, 189, 113);
+    font-style: italic;
+    font-family: "Grechen Fuemen", serif;
+    font-size: 40px;
+    transform: rotate(-10deg);
+    margin-top: 10%;
+}
+@media screen and (max-width:1486){
+    p{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
+@media screen and (max-width:961px){
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+    .couple{
+        text-align: center;
+         font-size: 40px;
+    }
+}
+@media screen and (max-width:775px){
+    .couple{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:740px){
+    p{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,76 @@
+.container{
+    color: white;
+    padding: 40px;
+}
+.number{
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(240, 189, 113);
+}
+.text{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 30px;
+}
+.texts{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.bb{
+    padding: 15px;
+    margin-left: 90px;
+    font-size: medium;
+    margin-top: 20px;
+    background-color: rgb(240, 189, 113);
+    font-weight: 700;
+    color: rgb(26, 26, 39);
+}
+.bb:hover{
+    background-color: antiquewhite;
+}
+@media screen and (max-width:640px) {
+    .container{
+        padding: 20px;
+        /* left: 40px; */
+    }
+    .table1{
+        margin-left: 60px;
+    }
+    .number{
+        font-size: 40px;
+        font-weight: 100;
+        color: rgb(240, 189, 113);
+        /* margin-left: 40px; */
+
+    }
+    .text{
+        font-size: 20px;
+        font-weight: 400;
+        padding: 20px;
+       /* margin-left: 40px; */
+
+    }
+    .texts{
+        padding: 20px;
+        font-size: 15px;
+        font-weight: 100;
+        /* margin-left: 40px; */
+
+    }
+    .bb{
+        padding: 10px;
+        margin-left: 50px;
+        font-size: medium;
+        margin-top: 20px;
+        background-color: rgb(240, 189, 113);
+        font-weight: 700;
+        color: rgb(26, 26, 39);
+        /* margin-left: 40px; */
+
+    }
+    .bb:hover{
+        background-color: antiquewhite;
+    }
+    
+}

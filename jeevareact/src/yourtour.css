@@ -1,0 +1,70 @@
+.container{
+    position: relative;
+    /* background-color: rgb(54, 54, 88); */
+}
+#row2{
+    padding: 100px;
+    background-color: rgb(54, 54, 88);
+    height: 750px;
+}
+.yourpara{
+    text-align: left;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 10px;
+}
+#imgw{
+    height: 550px;
+    width: 400px;
+    position: relative;
+    margin-left: 20%;
+    transform: rotate(5deg);
+}
+#imgwine{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    height: 300px;
+    width: 200px;
+    transform: rotate(-8deg);
+    z-index: 1;
+
+}
+#yourid{
+    margin-left: 10px;
+    color: rgb(240, 189, 113);
+    font-size: 50px;
+    font-family: "Montserrat", serif;
+}
+#yourid1{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+@media screen and (max-width:640px) {
+    #row2{
+        padding: 10px;
+        width: 102vw;
+    }
+    .yourpara{
+        display: none;
+        /* text-align: center; */
+        /* margin-left: 20%; */
+        position: absolute;
+    }
+    #yourid{
+        display: none;
+    }
+    #yourid1{
+        display: none;
+    }
+    #imge{
+        margin-left: 20%;
+    }
+    #imgwine{
+        left: 10%;
+    }
+}
